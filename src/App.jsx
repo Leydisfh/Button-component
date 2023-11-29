@@ -1,12 +1,13 @@
-
+import "./index.css"
 import './App.css'
+import Aside from './Components/Aside'
 
 function App() {
  
 
   return (
     <>
-     
+     <Aside />
     </>
   )
 }
