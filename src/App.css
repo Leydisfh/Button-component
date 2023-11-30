@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    gap: 65px;
+}
+
+.title{
+font-family: var(--popins);
+color: #4f4f4f;
+font-size: 24px;
+font-weight: 500;
+margin-top: 20px;
+}
+
+/*Container de todos los botones*/
+.btn_btns___constainer{
+    display: flex;
+    flex-direction: column;
+    
+}
