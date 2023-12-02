@@ -210,16 +210,19 @@ export const buttons = [
                 },
                 {
                     id:"btn020",
+                    textCode:" ",
                     btnTitle: "Default",
                     newClass:"btn__dark_blue" 
             },
             {
                 id:"btn021",
+                textCode:" ",
                 btnTitle: "Secondary",
                 newClass:"btn__dark-green" 
         },
         {
             id:"btn022",
+            textCode:" ",
             btnTitle: "Danger",
             newClass:"btn__dark-danger" 
     },
