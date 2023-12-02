@@ -3,7 +3,8 @@ import './App.css';
 import "./Styles/btnStyles/btnDefault.css";
 import "./Styles/btnStyles/btnOutline.css";
 import "./Styles/btnStyles/btnText.css";
-import "./Styles/btnStyles/disableShadow.css"
+import "./Styles/btnStyles/disableShadow.css";
+import "./Styles/btnStyles/disable.css";
 
 import Aside from './Components/Aside';
 import { buttons } from "./variables";

@@ -89,5 +89,23 @@ export const buttons = [
                     newClass:"btn__dark_background" 
                 }
             ]
-        }
+        },
+        {
+            category:"disable",
+            buttons:[
+                {
+                    textCode:`<Button disable />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Disabled",
+                    newClass:"btn__default-gray text_color" 
+                },
+                {
+                    textCode:`<Button variant=”text” disabled />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Disabled",
+                    newClass:"btn__text text_color" 
+                }
+            ]
+        },
+
     ]
