@@ -10,6 +10,9 @@
 }
 
 .btnBase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 81px;
     height: 36px;
     padding: 8px;
@@ -20,7 +23,7 @@
 }
 
 .btn_dark__text{
-    color: #333333;
+    color: #000;
 }
 
 .btn_light__text{

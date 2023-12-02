@@ -137,6 +137,33 @@ export const buttons = [
 
                 }
             ]
+        },
+        {
+            category:"size",
+            buttons:[
+                {
+                        id:"btn012",
+                        textCode:`<Button size=”sm” />`,
+                        textClass: "btn_dark__text",
+                        btnTitle: "Default",
+                        newClass:"btn__dark_background size_shadow-sm" 
+                },
+                {
+                    id:"btn013",
+                    textCode:`<Button size=”md” />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Default",
+                    newClass:"btn__dark_background size_shadow-md" 
+            },
+            {
+                id:"btn014",
+                textCode:`<Button size=”lg” />`,
+                textClass: "btn_dark__text",
+                btnTitle: "Default",
+                newClass:"btn__dark_background size_shadow-lg" 
+        },
+
+            ]
         }
 
     ]

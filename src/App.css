@@ -1,5 +1,7 @@
 .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+    height: 100vh;
     gap: 65px;
 }
 
@@ -18,17 +20,8 @@ main{
     gap: 45px;
 }
 
-/*Container de todos los botones*/
-/*.btn_btns___constainer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-    
-}*/
-
 .btn_btns___constainer{
     display: grid;
     grid-template-columns: repeat(4, 260px);
-    grid-template-rows: repeat(9,100px);
+    grid-template-rows: repeat(9,140px);
 }

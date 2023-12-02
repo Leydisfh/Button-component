@@ -6,6 +6,7 @@ import "./Styles/btnStyles/btnText.css";
 import "./Styles/btnStyles/disableShadow.css";
 import "./Styles/btnStyles/disable.css";
 import "./Styles/btnStyles/localGrocery.css";
+import "./Styles/btnStyles/size.css"
 
 import Aside from './Components/Aside';
 import { buttons } from "./variables";
