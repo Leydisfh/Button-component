@@ -21,9 +21,10 @@ function App() {
      <section className="btn_btns___constainer">   
      {buttons.map((category, index) => (
             <div key={index} className="btn_container__buttons">
-              {category.buttons.map((btn, btnIndex) => (
+              {category.buttons.map((btn) => (
                 <ButtonsElements
-                  key={btnIndex}
+                  key={btn.id}
+                  id={btn.id}
                   btnTitle={btn.btnTitle} 
                   newClass={btn.newClass}
                   textCode={btn.textCode}

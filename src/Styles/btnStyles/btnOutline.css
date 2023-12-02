@@ -8,3 +8,13 @@
 .outline{
     background-color: #2962FF1A;
 }
+
+#btn003{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#btn004{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}

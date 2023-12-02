@@ -1,7 +1,6 @@
 .btn_container__buttons{
-    display: flex;
     width: 100%;
-   gap: 65px;
+    display: contents;
 }
 
 .btn_container{

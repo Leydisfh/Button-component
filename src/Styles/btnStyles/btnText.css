@@ -8,3 +8,13 @@
 .btn__text_color {
     color: #3D5AFE;
 }
+
+#btn005{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#btn006{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}

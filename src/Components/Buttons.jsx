@@ -1,11 +1,11 @@
 import "../Styles/btnBase.css";
-const ButtonsElements = ({textCode,textClass, btnTitle, newClass}) => {
+const ButtonsElements = ({id, textCode,textClass, btnTitle, newClass}) => {
   
 const claseBase = `btnBase  ${newClass}`
 
   
   return (
-    <section className="btn_container">
+    <section className="btn_container" id={id}>
       <aside className="btn__description__code">
         <pre>
           <code className={textClass}>{textCode}</code>
