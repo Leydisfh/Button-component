@@ -1,9 +1,3 @@
-.btn_btns__defult__container{
-    display: flex;
-    width: 100%;
-    gap: 65px;
-}
-
 
 .btn__default-gray{
     background-color: #E0E0E0;
@@ -18,6 +12,3 @@
 
 }
 
-.default_code-style{
-    color: #828282;
-}

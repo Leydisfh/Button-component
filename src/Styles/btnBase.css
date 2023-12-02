@@ -1,3 +1,9 @@
+.btn_container__buttons{
+    display: flex;
+    width: 100%;
+   gap: 65px;
+}
+
 .btn_container{
     display: flex;
     flex-direction:column ;
@@ -5,10 +11,19 @@
 }
 
 .btnBase{
+    width: 81px;
+    height: 36px;
     padding: 8px;
-    
     border-radius: 6px;
     font-family: var(--noto);
     font-size: 14px;
     font-weight: 500;
+}
+
+.btn_dark__text{
+    color: #333333;
+}
+
+.btn_light__text{
+    color: #828282;
 }
