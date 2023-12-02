@@ -164,6 +164,39 @@ export const buttons = [
         },
 
             ]
+        },
+        {
+            category:"mix",
+            buttons:[
+                {
+                        id:"btn015",
+                        textCode:`<Button color=”default” />`,
+                        textClass: "btn_dark__text",
+                        btnTitle: "Default",
+                        newClass:"btn__default-gray gray-shadow" 
+                },
+                {
+                    id:"btn016",
+                    textCode:`<Button color=”primary” />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Default",
+                    newClass:"btn__dark_background" 
+            },
+            {
+                id:"btn017",
+                textCode:`<Button color=”secondary” />`,
+                textClass: "btn_dark__text",
+                btnTitle: "Secondary",
+                newClass:"btn__secondary-gray" 
+        },
+        {
+            id:"btn018",
+            textCode:`<Button color=”danger” />`,
+            textClass: "btn_dark__text",
+            btnTitle: "Danger",
+            newClass:"btn__secondary-danger" 
+    },
+            ]
         }
 
     ]
