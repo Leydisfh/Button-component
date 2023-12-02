@@ -39,7 +39,11 @@ function App() {
             </div>
           ))}
      </section>
+     <footer>
+      <p>Created by Leydis Fernández - devChallenges.io</p>
+     </footer>
      </main>
+
     </div>
   )
 }

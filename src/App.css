@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 200px 1fr ;
-    height: 100vh;
+    min-height: 100vh;
     gap: 65px;
 }
 
@@ -24,4 +24,12 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 260px);
     grid-template-rows: repeat(9,140px);
+}
+
+footer{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    color:#A9A9A9;
 }
