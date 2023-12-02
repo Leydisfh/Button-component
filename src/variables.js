@@ -33,3 +33,34 @@ export const interfaceElements = [
 }
 ];
 
+export const buttons = [
+    {  category:"default",
+        buttons:[ 
+        {
+        textCode: "&lt;Button/&gt;",
+        textClass:"btn_dark__text",
+        btnTitle:"Default",
+        newClass:"btn__default-gray"
+        },
+        {
+            textCode:"&:hover, &:focus",
+            textClass: "btn_light__text",
+            btnTitle:"Default",
+            newClass:"btn__default-dark"
+        },]},
+        {   category:"outline",
+            buttons:[
+            {
+            textCode:"&lt;Button variant=”outline”/&gt;",
+            textClass: "btn_dark__text",
+            btnTitle: "Default",
+            newClass:"btn__variant-outline"
+        },
+        {
+            textCode:"&:hover, &:focus",
+            textClass: "btn_light__text",
+            btnTitle: "Default",
+            newClass:"btn__variant-outline outline"
+        },]},
+        
+    ]
