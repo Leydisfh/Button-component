@@ -197,6 +197,34 @@ export const buttons = [
             newClass:"btn__secondary-danger" 
     },
             ]
+        },
+        {
+            category:"mix",
+            buttons:[
+                {
+                        id:"btn019",
+                        textCode:`&:hover, &:focus`,
+                        textClass: "btn_light__text",
+                        btnTitle: "Default",
+                        newClass:"btn__default-dark" 
+                },
+                {
+                    id:"btn020",
+                    btnTitle: "Default",
+                    newClass:"btn__dark_blue" 
+            },
+            {
+                id:"btn021",
+                btnTitle: "Secondary",
+                newClass:"btn__dark-green" 
+        },
+        {
+            id:"btn022",
+            btnTitle: "Danger",
+            newClass:"btn__dark-danger" 
+    },
+            ]
         }
+
 
     ]

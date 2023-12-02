@@ -7,7 +7,8 @@ import "./Styles/btnStyles/disableShadow.css";
 import "./Styles/btnStyles/disable.css";
 import "./Styles/btnStyles/localGrocery.css";
 import "./Styles/btnStyles/size.css";
-import "./Styles/btnStyles/mix.css"
+import "./Styles/btnStyles/mix.css";
+import "./Styles/btnStyles/mix-colors.css"
 
 import Aside from './Components/Aside';
 import { buttons } from "./variables";

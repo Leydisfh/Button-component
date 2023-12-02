@@ -1,0 +1,41 @@
+.btn__dark_blue{
+    box-shadow: 0px 2px 3px 0px #2962FF33;
+    background-color: #0039CB;
+    color: #fff;
+
+}
+
+.btn__dark-green{
+    box-shadow: 0px 2px 3px 0px #455A6433;
+    background-color: #1c313A;
+    width: 104px !important;
+    height: 36px !important;
+    color: #fff;
+
+}
+
+.btn__dark-danger{
+    box-shadow: 0px 2px 3px 0px #D32F2F33;
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+#btn019{
+    grid-column: 1/2;
+    grid-row: 9/10;
+}
+
+#btn020{
+    grid-column: 2/3;
+    grid-row: 9/10;
+}
+
+#btn021{
+    grid-column: 3/4;
+    grid-row: 9/10;
+}
+
+#btn022{
+    grid-column: 4/5;
+    grid-row: 9/10;
+}
