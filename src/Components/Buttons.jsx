@@ -1,5 +1,5 @@
 import "../Styles/btnBase.css";
-const ButtonsElements = ({id, textCode,textClass, btnTitle, newClass}) => {
+const ButtonsElements = ({id, textCode,textClass,icon ,btnTitle, newClass}) => {
   
 const claseBase = `btnBase  ${newClass}`
 
@@ -12,6 +12,7 @@ const claseBase = `btnBase  ${newClass}`
         </pre>
       </aside>
       <button className= {claseBase} >
+       <img src= {icon}/> 
         {btnTitle}
       </button>
     </section>

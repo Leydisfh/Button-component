@@ -1,0 +1,25 @@
+.flex-card{
+    width: 105px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+#btn010{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+#btn011{
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+
+#btn011 button{
+    flex-direction: row-reverse;
+}
+

@@ -1,5 +1,4 @@
 
-
 export const interfaceElements = [
 {
     name:"Colors",
@@ -116,5 +115,28 @@ export const buttons = [
                 }
             ]
         },
+        {
+            category:"local_grocery",
+            buttons:[
+                {
+                    id:"btn010",
+                    icon: "src/assets/icons/cart.svg",
+                    textCode:`<Button startIcon=”local_grocery_store” />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Default",
+                    newClass:"btn__dark_background flex-card" 
+
+                },
+                {
+                    id:"btn011",
+                    icon: "src/assets/icons/cart.svg",
+                    textCode:`<Button endIcon=”local_grocery_store” />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Default",
+                    newClass:"btn__dark_background flex-card" 
+
+                }
+            ]
+        }
 
     ]

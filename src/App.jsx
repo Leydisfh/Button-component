@@ -5,6 +5,7 @@ import "./Styles/btnStyles/btnOutline.css";
 import "./Styles/btnStyles/btnText.css";
 import "./Styles/btnStyles/disableShadow.css";
 import "./Styles/btnStyles/disable.css";
+import "./Styles/btnStyles/localGrocery.css";
 
 import Aside from './Components/Aside';
 import { buttons } from "./variables";
@@ -29,6 +30,7 @@ function App() {
                   newClass={btn.newClass}
                   textCode={btn.textCode}
                   textClass={btn.textClass}
+                  icon={btn.icon}
                 />
               ))}
             </div>
