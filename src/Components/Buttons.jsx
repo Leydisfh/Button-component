@@ -1,5 +1,5 @@
 import "../Styles/btnBase.css";
-const ButtonsElements = ({textCode, btnTitile, newClass}) => {
+const ButtonsElements = ({textCode,textClass, btnTitile, newClass}) => {
   
 const claseBase = `btnBase  ${newClass}`
 
@@ -8,7 +8,7 @@ const claseBase = `btnBase  ${newClass}`
     <section className="btn_container">
       <aside className="btn__description__code">
         <pre>
-          <code>&lt;p&gt;{textCode}&lt;/p&gt;</code>
+          <code className={textClass}>{textCode}</code>
         </pre>
       </aside>
       <button className= {claseBase} >

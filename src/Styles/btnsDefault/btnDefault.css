@@ -1,3 +1,23 @@
 .btn_btns__defult__container{
     display: flex;
+    width: 100%;
+    gap: 65px;
+}
+
+
+.btn__default-gray{
+    background-color: #E0E0E0;
+    box-shadow: 0px 2px 3px 0px #33333333;
+    color:  #3F3F3F;
+}
+
+.btn__default-dark{
+    box-shadow: 0px 2px 3px 0px #33333333;
+    background-color:  #AEAEAE;
+    
+
+}
+
+.default_code-style{
+    color: #828282;
 }
