@@ -37,7 +37,7 @@ export const buttons = [
     {  category:"default",
         buttons:[ 
         {
-        textCode: "&lt;Button/&gt;",
+        textCode: "<Button/>",
         textClass:"btn_dark__text",
         btnTitle:"Default",
         newClass:"btn__default-gray"
@@ -51,7 +51,7 @@ export const buttons = [
         {   category:"outline",
             buttons:[
             {
-            textCode:"&lt;Button variant=”outline”/&gt;",
+            textCode:"<Button variant=”outline”/>",
             textClass: "btn_dark__text",
             btnTitle: "Default",
             newClass:"btn__variant-outline"
@@ -62,5 +62,32 @@ export const buttons = [
             btnTitle: "Default",
             newClass:"btn__variant-outline outline"
         },]},
-        
+        {
+            category:"text",
+            buttons:[
+                {
+                    textCode:`<Button variant=”text”/>`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Default",
+                    newClass:"btn__text"
+                },
+                {
+                    textCode:"&:hover, &:focus",
+                    textClass: "btn_light__text",
+                    btnTitle: "Default",
+                    newClass:"btn__text_color outline"
+                }
+            ]
+        },
+        {
+            category:"disableShadow",
+            buttons:[
+                {
+                    textCode:`<Button disableShadow />`,
+                    textClass: "btn_dark__text",
+                    btnTitle: "Default",
+                    newClass:"btn__dark_background" 
+                }
+            ]
+        }
     ]
