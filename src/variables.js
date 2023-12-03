@@ -120,7 +120,7 @@ export const buttons = [
             buttons:[
                 {
                     id:"btn010",
-                    icon: "src/assets/icons/cart.svg",
+                    icon: "src/assets/icons/carts.svg",
                     textCode:`<Button startIcon=”local_grocery_store” />`,
                     textClass: "btn_dark__text",
                     btnTitle: "Default",
@@ -129,12 +129,11 @@ export const buttons = [
                 },
                 {
                     id:"btn011",
-                    icon: "src/assets/icons/cart.svg",
+                    icon: "src/assets/icons/carts.svg",
                     textCode:`<Button endIcon=”local_grocery_store” />`,
                     textClass: "btn_dark__text",
                     btnTitle: "Default",
                     newClass:"btn__dark_background flex-card" 
-
                 }
             ]
         },

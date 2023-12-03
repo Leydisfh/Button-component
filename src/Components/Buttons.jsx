@@ -12,7 +12,7 @@ const claseBase = `btnBase  ${newClass}`
         </pre>
       </aside>
       <button className= {claseBase} >
-       <img src= {icon}/> 
+        <img src={icon} />    
         {btnTitle}
       </button>
     </section>
