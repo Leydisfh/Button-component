@@ -22,7 +22,7 @@ main{
 
 .btn_btns___constainer{
     display: grid;
-    grid-template-columns: repeat(4, 260px);
+    grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(9,140px);
 }
 
