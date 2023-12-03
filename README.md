@@ -11,7 +11,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://legacy.devchallenges.io/paths/front-end-developer/solutions">
       Solution
     </a>
     <span> | </span>
