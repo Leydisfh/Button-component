@@ -1,5 +1,5 @@
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Button Component}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://button-component-alpha-lyart.vercel.app/">
+    <a href="https://button-component-alpha-lyart.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -83,7 +83,5 @@ $ npm start
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@leydisfh](https://github.com/Leydisfh)
+- Linkedin [@leydis-fernández](https://linkedin.com/in/leydis-fernández)
