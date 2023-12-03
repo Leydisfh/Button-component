@@ -37,13 +37,17 @@
 ## Overview
 
 ![screenshot](btn-components.png)
--En este proyecto, creé una librería de estilos de botones utilizando **React**, una biblioteca de JavaScript para construir interfaces de usuario.
--El objetivo era replicar el diseño de una página web que se me proporcionó, usando **componentes de React** para los botones. 
--Para lograr un diseño responsive y adaptable, utilicé **display grid**, una técnica de CSS que permite crear layouts flexibles. 
--También utilicé **props**, una forma de pasar datos entre componentes, para personalizar los estilos y el contenido de los botones. 
--El resultado fue una página web que muestra una variedad de botones con diferentes tamaños, colores, formas y efectos. 
---**La página web es solo visual y no tiene interacción alguna con el usuario**. 
---Este proyecto me permitió practicar mis habilidades de React y CSS.
+<!--  -->
+
+> 💻 In this project, I created a button styles library using **React**, a JavaScript library for building user interfaces.
+> 
+> 📑The goal was to replicate the design of a provided webpage using **React components** for the buttons. 
+> To achieve a responsive and adaptable design, I used display grid, a CSS technique that enables the creation of flexible layouts. 
+> I also utilized props, a way of passing data between components, to customize the styles and content of the buttons. The result was a webpage displaying a variety of buttons with different sizes, colors, shapes, and effects
+>  
+> ⚠️ The webpage is purely visual and lacks any interaction with the user..
+>  
+> 💡This project allowed me to practice my React and CSS skills.
 
 ### Built With
 
