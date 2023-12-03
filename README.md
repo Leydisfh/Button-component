@@ -37,13 +37,13 @@
 ## Overview
 
 ![screenshot](btn-components.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+-En este proyecto, creé una librería de estilos de botones utilizando **React**, una biblioteca de JavaScript para construir interfaces de usuario.
+-El objetivo era replicar el diseño de una página web que se me proporcionó, usando **componentes de React** para los botones. 
+-Para lograr un diseño responsive y adaptable, utilicé **display grid**, una técnica de CSS que permite crear layouts flexibles. 
+-También utilicé **props**, una forma de pasar datos entre componentes, para personalizar los estilos y el contenido de los botones. 
+-El resultado fue una página web que muestra una variedad de botones con diferentes tamaños, colores, formas y efectos. 
+--**La página web es solo visual y no tiene interacción alguna con el usuario**. 
+--Este proyecto me permitió practicar mis habilidades de React y CSS.
 
 ### Built With
 
@@ -65,7 +65,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Leydisfh/Button-component
 
 # Install dependencies
 $ npm install
