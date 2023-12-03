@@ -9,13 +9,15 @@ import "./Styles/btnStyles/localGrocery.css";
 import "./Styles/btnStyles/size.css";
 import "./Styles/btnStyles/mix.css";
 import "./Styles/btnStyles/mix-colors.css"
-
+import { v4 as uuid } from 'uuid';
 import Aside from './Components/Aside';
 import { buttons } from "./variables";
 import ButtonsElements from "./Components/Buttons";
 
 
+
 function App() {
+ 
 
   return (
     <div className="container">
@@ -23,8 +25,8 @@ function App() {
      <main>
      <h2 className="title">Buttons</h2>
      <section className="btn_btns___constainer">   
-     {buttons.map((category, index) => (
-            <div key={index} className="btn_container__buttons">
+     {buttons.map((category) => (
+            <div key={uuid()} className="btn_container__buttons">
               {category.buttons.map((btn) => (
                 <ButtonsElements
                   key={btn.id}
